@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C515E8CDD80FA097935D0E1E /* Pods_AnimationApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 402DF6B35F403A10D746C0B0 /* Pods_AnimationApp.framework */; };
+		FA226FAC230D989300237D1A /* AnimationOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA226FAB230D989200237D1A /* AnimationOptions.swift */; };
 		FABD6032230C79FF00C4A7AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABD6031230C79FF00C4A7AA /* AppDelegate.swift */; };
 		FABD6034230C79FF00C4A7AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABD6033230C79FF00C4A7AA /* ViewController.swift */; };
 		FABD6037230C79FF00C4A7AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FABD6035230C79FF00C4A7AA /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 		402DF6B35F403A10D746C0B0 /* Pods_AnimationApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimationApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		59B93805BCCF201E11F169F0 /* Pods-AnimationApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimationApp.debug.xcconfig"; path = "Target Support Files/Pods-AnimationApp/Pods-AnimationApp.debug.xcconfig"; sourceTree = "<group>"; };
 		88297A201BB281BDE2C5B57C /* Pods-AnimationApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimationApp.release.xcconfig"; path = "Target Support Files/Pods-AnimationApp/Pods-AnimationApp.release.xcconfig"; sourceTree = "<group>"; };
+		FA226FAB230D989200237D1A /* AnimationOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AnimationOptions.swift; path = /Users/macbook/Desktop/AnimationApp/AnimationApp/AnimationOptions.swift; sourceTree = "<absolute>"; };
 		FABD602E230C79FF00C4A7AA /* AnimationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FABD6031230C79FF00C4A7AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FABD6033230C79FF00C4A7AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 		FABD6030230C79FF00C4A7AA /* AnimationApp */ = {
 			isa = PBXGroup;
 			children = (
+				FA226FAB230D989200237D1A /* AnimationOptions.swift */,
 				FABD6031230C79FF00C4A7AA /* AppDelegate.swift */,
 				FABD6033230C79FF00C4A7AA /* ViewController.swift */,
 				FAE2CC7D230C915B00472EC2 /* AnimationOptions.swift */,
@@ -207,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAE2CC7E230C915B00472EC2 /* AnimationOptions.swift in Sources */,
+				FA226FAC230D989300237D1A /* AnimationOptions.swift in Sources */,
 				FABD6034230C79FF00C4A7AA /* ViewController.swift in Sources */,
 				FABD6032230C79FF00C4A7AA /* AppDelegate.swift in Sources */,
 			);
